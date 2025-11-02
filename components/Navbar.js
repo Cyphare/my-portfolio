@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="bg-white shadow-md p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="font-bold text-xl text-blue-600">
-          ARNOLD
+          ARNOLD.V1
         </Link>
         <div className="space-x-4">
           <Link href="/" className="text-gray-700 hover:text-blue-600">
