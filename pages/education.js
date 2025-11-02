@@ -49,7 +49,7 @@ export default function EducationPage({ projects }) {
               <div key={project.id} className="p-4 border rounded-lg shadow-sm bg-white">
                 <h2 className="text-2xl font-semibold text-blue-700">{project.name}</h2>
                 <p className="text-sm text-gray-500 mb-2">Year: {project.year}</p>
-                <p>{project.description}</p>
+                <p className="text-black">{project.description}</p>
               </div>
             ))
           ) : (
