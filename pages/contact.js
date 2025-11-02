@@ -26,6 +26,8 @@ export default function ContactPage() {
           >
             @gvrael
           </a>
+        </div>
+      </div>
     </div>
   );
 }
