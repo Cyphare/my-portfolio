@@ -7,7 +7,7 @@ export default function ContactPage() {
 
       <div className="bg-white p-8 border rounded-lg shadow-sm max-w-lg">
         <p className="text-lg text-gray-700 mb-6">
-          The best way to reach me is through Instagram.
+          The best way to reach me is through Instagram!
         </p>
 
         {/* --- Instagram Link --- */}
