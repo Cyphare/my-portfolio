@@ -35,7 +35,7 @@ export default function EducationPage({ projects }) {
           <p className="text-xl text-gray-800">Bachelor of Information Technology</p> {/* [cite: 39] */}
           <p className="text-sm text-gray-500 mb-2">Jul 2024 - Jul 2028 (Expected)</p> {/* [cite: 38] */}
           <ul className="list-disc list-inside space-y-1">
-            <li>Got a fully-funded scholarship on the 1st semester with a top 5 grade on my study program.</li> {/* [cite: 40] */}
+            <li className="text-black"Very diligent on my study program.</li> {/* [cite: 40] */}
           </ul>
         </div>
       </section>
@@ -64,18 +64,18 @@ export default function EducationPage({ projects }) {
         <div className="p-4 border rounded-lg shadow-sm bg-white">
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">Hard Skills</h2>
           <ul className="list-disc list-inside space-y-1 mb-4">
-            <li>Designed a shape/face detection sensor (Image Processing) and Dynamic System (Matlab & Simulink).</li> {/* [cite: 53] */}
+            <li className="text-black">Designed a shape/face detection sensor (Image Processing) and Dynamic System (Matlab & Simulink).</li> {/* [cite: 53] */}
           </ul>
           
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">Achievements</h2>
           <ul className="list-disc list-inside space-y-1 mb-4">
             <li className="text-black">3rd Champion of English Debate by UINSK (2025)</li> {/* [cite: 54] */}
-            <li>1st Champion and Best Speaker of English Debate by UAD (2025)</li> {/* [cite: 54] */}
+            <li className="text-black">1st Champion and Best Speaker of English Debate by UAD (2025)</li> {/* [cite: 54] */}
           </ul>
 
           <h2 className="text-2xl font-semibold text-blue-700 mb-4">Certifications</h2>
           <ul className="list-disc list-inside space-y-1">
-            <li>TOEFL ITP certification with a score 637/677 from Real Equivalent English (2023)</li> {/* [cite: 55] */}
+            <li className="text-black">TOEFL ITP certification with a score 637/677 from Real Equivalent English (2023)</li> {/* [cite: 55] */}
           </ul>
         </div>
       </section>
