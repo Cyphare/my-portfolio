@@ -33,8 +33,8 @@ export default function ExperiencePage({ experiences }) {
             <p className="text-xl text-gray-800">{exp.role}</p>
             <p className="text-sm text-gray-500 mb-2">{exp.dates}</p>
             <ul className="list-disc list-inside space-y-1">
-              {exp.description_points.map((point, index) => (
-                <li key={index}>{point}</li>
+              {exp.description_points && exp.description_points.split('\n').map((point, index) => (
+                point.trim() && <li key={index}>{point}</li>
               ))}
             </ul>
           </div>
