@@ -14,15 +14,15 @@ export default function HomePage() {
           ARNOLD {/* [cite: 1] */}
         </h1>
         
-        <h2 className="text-3xl font-light text-gray-800 mb-6">
+        <h2 className="text-3xl font-light text-white mb-6">
           Executive, Professional Debater, and Technologist
         </h2>
         
-        <p className="text-xl text-gray-600 max-w-3xl leading-relaxed">
+        <p className="text-xl text-gray-200 max-w-3xl leading-relaxed">
           Experienced in executive roles and having a career in professional debating made Arnold what he is.
           Someone who listens, adapts, but also made sure everything goes smoothly. {/* [cite: 2, 3] */}
         </p>
-        <p className="text-xl text-gray-600 max-w-3xl leading-relaxed mt-4">
+        <p className="text-xl text-gray-200 max-w-3xl leading-relaxed mt-4">
           He likes to dabble in environmental and technological project like automation and optimization. {/* [cite: 4] */}
         </p>
 
