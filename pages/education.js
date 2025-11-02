@@ -1,13 +1,10 @@
 import { supabase } from '../lib/supabaseClient';
 
-// --- Step 1: Data Fetching ---
-// This function runs at build time to get your 'projects' from Supabase
 export async function getStaticProps() {
-  // Fetch data from the 'projects' table
   const { data, error } = await supabase
     .from('projects')
     .select('*')
-    .order('year', { ascending: false }); // Show newest projects first
+    .order('year', { ascending: false });
 
   if (error) {
     console.error('Error fetching projects:', error);
@@ -15,14 +12,12 @@ export async function getStaticProps() {
 
   return {
     props: {
-      projects: data || [], // Pass the data to the page, ensure it's an array
+      projects: data || [], 
     },
-    revalidate: 60, // Optional: Re-fetch data every 60s
+    revalidate: 60, 
   };
 }
 
-// --- Step 2: Page Component ---
-// This is your page component that displays the data
 export default function EducationPage({ projects }) {
   return (
     <div className="container mx-auto p-8">
