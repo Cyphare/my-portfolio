@@ -1,8 +1,5 @@
-// pages/contact.js
-
 export default function ContactPage() {
   return (
-    // We add 'page-fade-in' for the same animation as other pages
     <div className="container mx-auto p-8 page-fade-in">
       
       {/* --- Main Heading --- */}
