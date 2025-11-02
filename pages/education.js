@@ -35,7 +35,7 @@ export default function EducationPage({ projects }) {
           <p className="text-xl text-gray-800">Bachelor of Information Technology</p> {/* [cite: 39] */}
           <p className="text-sm text-gray-500 mb-2">Jul 2024 - Jul 2028 (Expected)</p> {/* [cite: 38] */}
           <ul className="list-disc list-inside space-y-1">
-            <li className="text-black">Very diligent on my study program.</li> {/* [cite: 40] */}
+            <li className="text-black">Got into my dream study program.</li> {/* [cite: 40] */}
           </ul>
         </div>
       </section>
