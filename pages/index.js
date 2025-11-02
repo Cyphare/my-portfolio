@@ -6,7 +6,7 @@ export default function HomePage() {
       <section className="min-h-[75vh] flex flex-col justify-center">
         
         <h1 className="text-6xl font-bold text-blue-700 mb-4">
-          ARNOLD'S PROTOYPE PORTFOLIO WEBSITE {/* [cite: 1] */}
+          Arnold. {/* [cite: 1] */}
         </h1>
         
         <h2 className="text-3xl font-light text-white mb-6">
