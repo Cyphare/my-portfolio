@@ -29,10 +29,10 @@ export default function HomePage() {
         {/* Optional: A call-to-action button */}
         <div className="mt-10">
           <a 
-            href="/experience" 
+            href="/contact" 
             className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
           >
-            View My Experience
+            Contact Me!
           </a>
         </div>
 
