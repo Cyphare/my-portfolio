@@ -1,12 +1,10 @@
-// This is your Home Page: pages/index.js
-
 export default function HomePage() {
   return (
     <div className="container mx-auto p-8">
       <section className="min-h-[75vh] flex flex-col justify-center">
         
         <h1 className="text-6xl font-bold text-blue-700 mb-4">
-          Arnold. {/* [cite: 1] */}
+          Arnold.
         </h1>
         
         <h2 className="text-3xl font-light text-white mb-6">
@@ -15,13 +13,12 @@ export default function HomePage() {
         
         <p className="text-xl text-gray-200 max-w-3xl leading-relaxed">
           Experienced in executive roles and having a career in professional debating made Arnold what he is.
-          Someone who listens, adapts, but also made sure everything goes smoothly. {/* [cite: 2, 3] */}
+          Someone who listens, adapts, but also made sure everything goes smoothly.
         </p>
         <p className="text-xl text-gray-200 max-w-3xl leading-relaxed mt-4">
-          He likes to dabble in environmental and technological project like automation and optimization. {/* [cite: 4] */}
+          He likes to dabble in environmental and technological project like automation and optimization.
         </p>
 
-        {/* Optional: A call-to-action button */}
         <div className="mt-10">
           <a 
             href="/contact" 
