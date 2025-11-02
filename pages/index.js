@@ -3,15 +3,10 @@
 export default function HomePage() {
   return (
     <div className="container mx-auto p-8">
-      
-      {/* This is a "Hero" section. 
-        'min-h-[75vh]' makes it tall (75% of the viewport height).
-        'flex', 'flex-col', 'justify-center' are Tailwind classes to center the content vertically.
-      */}
       <section className="min-h-[75vh] flex flex-col justify-center">
         
         <h1 className="text-6xl font-bold text-blue-700 mb-4">
-          ARNOLD {/* [cite: 1] */}
+          ARNOLD'S PROTOYPE PORTFOLIO WEBSITE {/* [cite: 1] */}
         </h1>
         
         <h2 className="text-3xl font-light text-white mb-6">
